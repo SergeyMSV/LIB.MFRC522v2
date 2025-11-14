@@ -11,9 +11,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arduino.h" />
-    <ClInclude Include="src\deprecated.h">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="src\require_cpp11.h">
       <Filter>src</Filter>
     </ClInclude>

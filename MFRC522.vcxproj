@@ -147,7 +147,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\deprecated.h" />
     <ClInclude Include="src\MFRC522Constants.h" />
     <ClInclude Include="src\MFRC522Debug.h" />
     <ClInclude Include="src\MFRC522Driver.h" />
