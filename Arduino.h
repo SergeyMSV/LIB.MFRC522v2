@@ -7,7 +7,9 @@
 #include <string>
 #include <vector>
 
-#define F(x) x
+#ifdef REPO_MFRC522
+  #define F(x) x // Conflicts with boost
+#endif // REPO_MFRC522
 
 #define PROGMEM
 
